@@ -1,0 +1,108 @@
+aside {
+	position: fixed;
+	width: 75px;
+	right: 0; top:0;
+}
+aside > ul > li:nth-child(1){
+	height: 150px;
+}
+aside > ul > li:nth-child(2){
+	height: 120px;
+}
+aside > ul > li:nth-child(3),
+aside > ul > li:nth-child(4)
+{
+	height: 80px;
+	border-top: 1px solid #ededed;
+	position: relative;
+    background-color: #fff;
+	
+}
+aside > ul > li:nth-child(3)>a,
+aside > ul > li:nth-child(4)>a
+{
+   font-size: 14px;
+    color: #666666;
+}
+aside > ul > li:nth-child(3)>a:hover,
+aside > ul > li:nth-child(4)>a:hover
+{
+	color: #b4a078;
+}
+
+aside > ul > li:nth-child(3)>a>i,
+aside > ul > li:nth-child(4)>a>i
+{   
+	width: 75px;
+	line-height: 60px;
+	font-size: 40px;
+	color: #666666;
+	text-align: center;
+}
+aside > ul > li:nth-child(3) a>i:hover,
+aside > ul > li:nth-child(4) a>i:hover{
+	color: #b4a078;
+}
+aside > ul > li:nth-child(3):hover>.tip {
+	display: block;
+}
+aside .tip {
+	width: 370px;
+	height: 230px;
+	background-image: url(../images/广告条/3.png);
+	background-repeat: no-repeat;
+	border:1px solid #ccc;
+	position: absolute;
+	right: 120%;
+	top: -75px;
+	display: none;
+	background-color:#fff;
+}
+aside .tip>p:first-child{
+	line-height: 65px;
+	color: #fff;
+	text-align: center;
+	font-size: 22px;
+}
+aside .tip>p:nth-child(2){
+   line-height: 50px;
+   color: #666666;
+   text-align: center;
+}
+aside .tip>.tip-1{
+	text-align: center;
+}
+aside .tip>.tip-1>input{
+	color: #ccc;
+	border: 1px solid #ededed;
+	width: 190px;
+	height:30px;
+}
+aside .tip>.tip-1>a{
+
+	color: #fff;
+	display: inline-block;
+	height:30px;
+	width: 75px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #b4a078;
+}
+aside .tip>.tip-2{
+	position: relative;
+}
+aside .tip>.tip-2>ul>li{
+	position: absolute;
+	top: 30px;
+	bottom:30px;
+	color: #b4a078;
+}
+aside .tip>.tip-2>ul>li:nth-child(1){
+	left:20px;
+}
+aside .tip>.tip-2>ul>li:nth-child(2){
+	left:120px;
+}
+aside .tip>.tip-2>ul>li:nth-child(3){
+    left: 230px;
+}

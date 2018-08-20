@@ -1,0 +1,26 @@
+.pictures{
+		background-color:#f4f0ea;
+	}
+.pictures-1 {
+		height: 420px;
+		width: 1349px;
+		margin: 0 auto;
+		overflow:hidden;
+	}
+.pictures-1>ul{
+		width: 15860px;
+		position: relative;
+		left: 0;
+		animation: x 30s steps(8) infinite;
+	}
+.pictures-1>ul>li{
+		float: left;
+	}
+	@keyframes x {
+		0%{
+			left: 0;
+		}
+		100%{
+			left: -15860px;
+		}
+	}

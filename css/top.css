@@ -1,0 +1,41 @@
+div.top{
+                /*background-color: red;*/
+                width: 1360px;
+                height: 140px;
+                margin: 0 auto;
+                position: relative;
+            }
+       div.top>.top-center{
+            position: absolute;
+            left: 550px;
+            top: 20px;
+            height: 100px;
+            width: 220px;
+            background-image: url(../images/1.png);
+            background-repeat: no-repeat;
+            /*background-color: lightblue;*/
+       } 
+       div.top>.top-right>input{
+         position: absolute;
+           top: 70px;
+           width: 250px;
+           height: 25px;
+           border: 1px solid #fff;
+           border-bottom: 1px solid #d8cebc;
+           left: 850px;
+           color:#ccc; 
+       }
+       div.top>.top-right>a{
+           position: absolute;
+             top: 70px;
+            color: #bdab88;
+            font-size: 20px;
+            left: 1110px;
+            } 
+       div.top>.top-right>a:hover{
+        color: #a0875a;
+       }
+
+       div.top>.top-right>.top-right1{
+        left: 1150px;
+       }

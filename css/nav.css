@@ -1,0 +1,57 @@
+      div.navs{
+			background-color: #000;
+        }
+		div.nav{
+			background-color: #000;
+			width: 1100px;
+        	height: 35px;
+			margin: 0 auto;
+		}
+		div.nav>.nav-left>ul>li,
+		div.nav>.nav-right>ul>li{
+			float: left;
+			margin-top: 10px;
+		}
+		div.nav>.nav-right>ul>li{
+			float: right;
+		}
+		div.nav>.nav-left>ul>li:first-child>a{
+			color: #ccc;
+		}
+		div.nav>.nav-left>ul>li:last-child>a{
+			color: #b4a078;
+			margin-left: 20px;
+		}
+		div.nav>.nav-right>ul>li>a{
+          color: #ccc;
+		}
+		div.nav>.nav-right>ul>li>a:hover,
+		div.nav>.nav-left>ul>li>a:hover
+		{color: #ffffff;}
+
+		div.nav>.nav-right>ul>li{
+			text-align: center;
+			border-right: 1px solid #333333;
+		}
+		 div.nav>.nav-right>ul>li:last-child,
+		div.nav>.nav-right>ul>li:first-child,
+		div.nav>.nav-right>ul>li:nth-child(5),
+		div.nav>.nav-right>ul>li:nth-child(7)
+		{
+			width: 45px;
+		}
+        div.nav>.nav-right>ul>li:nth-child(2),
+        div.nav>.nav-right>ul>li:nth-child(3),
+        div.nav>.nav-right>ul>li:nth-child(6)
+        {
+			width: 70px;
+        }
+        div.nav>.nav-right>ul>li:nth-child(4)
+        {
+        	width: 60px;
+        }
+		div.nav>.nav-right>ul>li:first-child,
+		 div.nav>.nav-right>ul>li:last-child{
+			border-right: none;
+		}
+		
